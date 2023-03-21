@@ -1,0 +1,51 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.header {
+    height: 100vh;
+    width: auto;
+    position: relative;
+
+    background-image:  linear-gradient(rgba(34, 34, 34, 0.8), rgba(33, 33, 33, 0.8)),url(hero.jpg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+   /* background-attachment: fixed; */
+  color: white; 
+}
+
+button {
+  padding: 40px;
+  font-size: 40px;
+  position: absolute;
+  top: 800px;
+  left: 200px;
+  border-radius: 20px 30px;
+  background-color: orange;
+  color: white;
+  font-family: serif;
+}
+.container{
+  width:2800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 35px;
+  
+}
+
+.logo
+{
+    font-size: 45px;
+  
+    color:white;
+    
+}
+.navigation{
+  font-size: 45px;
+    color: white;
+    
+}
